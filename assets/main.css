@@ -1,6 +1,8 @@
 :root {
   --color-primary: #191d2b;
   --color-secondary: #27ae60;
+  --color-black: #000;
+  --color-white: #fff;
 }
 
 * {
@@ -13,5 +15,6 @@
 body {
   background-color: var(--color-secondary);
   font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=main.css.map */
