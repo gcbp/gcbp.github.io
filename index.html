@@ -4,73 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/main.css">
-
-    <title>Perosnal Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Manage Landing Page</title>
 </head>
-<body>
-    <header class="wrapper">
-        <div class="word-mark-logo">gcbp</div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Portfolio</li>
-            </ul>
-            <button>Let's Talk</button>
-        </nav>
-    </header>
-    <section class="hero-banner">
-        <div class="hero-message">
-            <div class="hero-header">Hello</div>
-            <div class="hero-name">I'm GIL CHRISTIAN</div>
-            <p>
-                -- Hi, I’m a freelance Graphic & Web UI Designer 
-                I love creating bold, brave & beautiful graphic,
-                illustrations & mock-ups for companies all over
-                the world.
-            </p>
-            <button>Let's Talk</button>
+<body class="bg-backgroundColor font-jetbrains text-gray-400">
+    <!-- navbar -->
+    <section id="hero" class="mx-auto mb-10 container mt-12 flex flex-col items-center  h-screen">
+        <div class="rounded-xl flex flex-col items-center text-center bg-boxColor w-96">
+            <img src="image/profile-face.jpg" alt="" class="mt-12 rounded-full w-52 h-52 inline-flex mb-10 border-orange-500 border-8">
+            <p class="text-orange-500 text-4xl font-bold mb-4">HI I'M GIL</p>
+            <p class="px-1.5 mb-12">I'm a Graphic Designer, Web UI Designer & Digital Illustrator</p>
         </div>
-        <img src="assets/images/banner-img.jpg" height="300" width="300" alt="" srcset="">
-    </section>
-    
-    <section class="about-page">
-        <div class="about-message">
-            <div class="about-header">About Me</div>
-            <div class="about-name">Skills & Experience</div>
-            <ul class="about-logo-img">
-                <li><img src="assets/images/about-me-icons/icons8-adobe-photoshop.svg" alt=""></li>
-                <li><img src="assets/images/about-me-icons/icons8-figma.svg" alt=""></li>
-                <li><img src="assets/images/about-me-icons/icons8-html-5.svg" alt=""></li>
-                <li><img src="assets/images/about-me-icons/icons8-css3.svg" alt=""></li>
-                <li><img src="assets/images/about-me-icons/icons8-javascript.svg" alt=""></li>
-            </ul>
-        </div>
-        <div class="about-experience">
-            <div class="first-line">
-                <div class="date-company">
-                    <p>2018 - 2019</p>
-                    <p>JRS Office+</p>
-                </div>
-                <ul class="experience">
-                    <li>Graphic Designer</li>
-                </ul>
-            </div>
-            <div class="second-line">
-                <div class="date-company">
-                    <p>2019-2021</p>
-                    <p>Intechsive Software Development</p>
-                </div>
-                <ul class="experience">
-                    <li>Graphic Designer</li>
-                    <li>Web UI Designer</li>
-                    <li>Jr. Front End Developer</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
+        <ul>
+            <li class="rounded-xl flex flex-col items-center text-center my-8 p-4 bg-boxColor w-96 hover:bg-orange-500 hover:text-white"><a href="#">About Me</a></li>
+            <li class="rounded-xl flex flex-col items-center text-center mb-8 p-4 bg-boxColor w-96 hover:bg-orange-500 hover:text-white"><a href="#">Behance</a></li>
+            <li class="rounded-xl flex flex-col items-center text-center mb-8 p-4 bg-boxColor w-96 hover:bg-orange-500 hover:text-white"><a href="#">Dribble</a></li>
+            <li class="rounded-xl flex flex-col items-center text-center mb-8 p-4 bg-boxColor w-96 hover:bg-orange-500 hover:text-white"><a href="#">LinkedIn</a></li>
+        </ul>
+    </section><!-- HERO SECTION -->
 </body>
 </html>
